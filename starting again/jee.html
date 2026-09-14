@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JEE Application Form</title>
+</head>
+
+<body>
+
+    <h1>JEE Application Form</h1>
+
+    <form>
+
+        
+        <h2>Personal Details</h2>
+
+        <label>Candidate Name:</label>
+        <input type="text" name="name">
+        <br><br>
+
+        <label>Father's Name:</label>
+        <input type="text" name="father">
+        <br><br>
+
+        <label>Mother's Name:</label>
+        <input type="text" name="mother">
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+
+
+        
+        <h2>Contact Details</h2>
+
+        <label>Email:</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile">
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="4" cols="40"></textarea>
+        <br><br>
+
+
+        
+        <h2>Academic Details</h2>
+
+        <label>Class 10 Percentage:</label>
+        <input type="number" name="class10" step="0.01">
+        <br><br>
+
+        <label>Class 12 Status:</label>
+        <select name="status">
+            <option value="">--Select--</option>
+            <option value="passed">Passed</option>
+            <option value="appearing">Appearing</option>
+        </select>
+        <br><br>
+
+        <label>Board:</label>
+        <select name="board">
+            <option value="">--Select Board--</option>
+            <option value="cbse">CBSE</option>
+            <option value="icse">ICSE</option>
+            <option value="state">State Board</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+
+        
+        <h2>Examination Details</h2>
+
+        <label>Exam:</label>
+        <input type="checkbox" name="exam" value="paper1">
+        JEE Main Paper 1
+
+        <br><br>
+
+        <label>Preferred Subject:</label>
+        <input type="radio" name="subject" value="pcm"> PCM
+        <input type="radio" name="subject" value="pcb"> PCB
+        <br><br>
+
+        <label>Preferred Exam City:</label>
+        <select name="city">
+            <option value="">--Select City--</option>
+            <option value="delhi">Delhi</option>
+            <option value="noida">Noida</option>
+            <option value="lucknow">Lucknow</option>
+            <option value="agra">Agra</option>
+        </select>
+        <br><br>
+
+
+        
+        <h2>Documents</h2>
+
+        <label>Upload Photograph:</label>
+        <input type="file" name="photo" accept="image/*">
+        <br><br>
+
